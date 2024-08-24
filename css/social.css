@@ -1,0 +1,103 @@
+.h1 {
+    font-weight: 200;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-style: italic;
+}
+
+.navbar {
+    margin-left: opx;
+    width: 100;
+    display: flex;
+    align-self: center;
+    background-color: pink;
+}
+
+.navbar a {
+    display: flex;
+    padding-right: 25px;
+    color: blue;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: 467px;
+    position: relative;
+    top: 9px;
+}
+
+.image1 {
+    position: relative;
+    top: -6px;
+    margin-left: 506px;
+}
+
+.heading1 {
+    position: relative;
+    top: 14px;
+    margin-left: 587px;
+    font-size: 20px;
+    color: brown;
+}
+
+.heading2 {
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.heading3 {
+    position: relative;
+    top: 14px;
+    margin-left: 587px;
+    font-size: 20px;
+    color: brown;
+}
+
+.heading4 {
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.first {
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+}
+
+.second {
+    position: relative;
+    top: 10px;
+    margin-left: 300px;
+}
+
+.third {
+    position: relative;
+    top: 10px;
+    margin-left: 400px;
+}
+
+.heading5 {
+    position: relative;
+    top: 14px;
+    margin-left: 587px;
+    font-size: 20px;
+    color: brown;
+}
+
+.heading6 {
+    position: relative;
+    top: 10px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.fifth {
+    margin-left: 600px;
+    position: relative;
+    top: 36px;
+}

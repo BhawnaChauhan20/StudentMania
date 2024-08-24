@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ :root {
+    /* --main-bg-color: rgb(3, 3, 73); */
+    --navbar-height: 59px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(32, 7, 65);
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: rgb(10, 1, 15);
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a :hover {
+    color: red;
+    background-color: white;
+}
+
+.Dressing {
+    padding: 30px 200px;
+}
+
+.heading1 {
+    padding: 30px 100px;
+    font-size: 50px;
+}
+
+.matter {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 1, 2);
+    font-size: 20px;
+}
+
+.variance {
+    font-size: 20px;
+}
+
+.matter2 {
+    font-size: 7px;
+}
+
+.matter3 {
+    font-size: 20px;
+}
+
+.matter4 {
+    font-size: 20px;
+}
+
+.matter5 {
+    font-size: 20px;
+}
+
+.matter6 {
+    font-size: 20px;
+}
+
+.matter7 {
+    font-size: 20px;
+}
+
+.matter8 {
+    font-size: 20px;
+}
+
+.matter9 {
+    font-size: 20px
+}
+
+.matter10 {
+    font-size: 25px;
+    color: blueviolet;
+}
+
+footer {
+    color: white;
+    height: 6vh;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

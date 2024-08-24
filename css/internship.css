@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Lobster&display=swap');
+:root {
+    --main-bg-color: rgb(3, 3, 73);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--main-bg-color);
+    height: 60px;
+    width: 101%;
+    position: fixed;
+    z-index: 5;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    font-size: small;
+    padding: 0 20px;
+    transition: 0.3s all;
+    /* cursor: all-scroll; */
+}
+
+nav ul li :hover {
+    color: rgb(212, 200, 39);
+}
+
+nav ul li a {
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-style: bold;
+}
+
+
+/* .logo {
+    position: relative;
+    left: 80%;
+} */
+
+nav ul li :hover {
+    color: rgb(212, 200, 39);
+}
+
+nav ul li a {
+    color: rgb(245, 241, 241);
+    text-decoration: none;
+    font-style: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    color: wheat;
+    margin-right: 60px;
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+}
+
+#Q {
+    position: relative;
+    left: 30%;
+    bottom: 33%;
+}
+
+.content {
+    margin: 4px;
+    padding: 2px;
+    background: rgb(233, 237, 236);
+    font-style: italic;
+}
+
+#Q1 {
+    font-size: large;
+}
+
+#Q2 {
+    font-size: large;
+}
+
+#Q3 {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+    /* font-style: bold; */
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.Q4 {
+    position: relative;
+    left: 54%;
+    bottom: 397px;
+}
+
+#H {
+    position: relative;
+    left: -50%;
+    bottom: 30%;
+    text-decoration: none;
+    text-decoration-color: rgb(65, 2, 31);
+}
+
+#H1 {
+    font-size: large;
+}
+
+#H2 {
+    font-size: medium;
+}
+
+#H3 {
+    font-size: large;
+}
+
+#H5 {
+    position: relative;
+    bottom: 260px;
+    left: 2%;
+}
+
+#H6 {
+    position: relative;
+    bottom: 110%;
+    left: 1%;
+    font-weight: normal;
+}
+
+.Q6 {
+    position: relative;
+    left: 45%;
+    bottom: 20%;
+}

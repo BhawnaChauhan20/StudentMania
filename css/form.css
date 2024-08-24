@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.form1 {
+    font-size: 50px;
+    margin-left: 658px;
+    position: relative;
+    top: 48px;
+    color: brown;
+}
+
+.form2 {
+    font-size: 21px;
+    color: black;
+    margin-left: 291px;
+    position: relative;
+    top: 75px;
+}
+
+.para1 {
+    font-size: 21px;
+    color: black;
+    margin-left: 533px;
+    position: relative;
+    top: 87px;
+}
+
+.todo1 {
+    margin-left: 163px;
+    position: relative;
+    top: 162px;
+}
+
+.todo2 {
+    margin-left: 1247px;
+    position: relative;
+    top: 138px;
+}
+
+.todo3 {
+    margin-left: 371px;
+    position: relative;
+    top: 242px;
+}
+
+.todo4 {
+    margin-left: 321px;
+    position: relative;
+    top: 241px;
+}
